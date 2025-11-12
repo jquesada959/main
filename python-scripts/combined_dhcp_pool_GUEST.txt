@@ -1,0 +1,424 @@
+--- 172.18.2.115 (172.18.2.115) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC19AC01(config)#ip dhcp pool GUEST
+SWTC19AC01(dhcp-config)# vrf GUEST
+SWTC19AC01(dhcp-config)# lease 0 4
+SWTC19AC01(dhcp-config)#end
+SWTC19AC01#terminal length 0
+SWTC19AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.20.0 255.255.255.0
+ default-router 10.154.20.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC19AC01#
+
+--- 172.18.2.123 (172.18.2.123) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC19AC02(config)#ip dhcp pool GUEST
+SWTC19AC02(dhcp-config)# vrf GUEST
+SWTC19AC02(dhcp-config)# lease 0 4
+SWTC19AC02(dhcp-config)#end
+SWTC19AC02#terminal length 0
+SWTC19AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.21.0 255.255.255.0
+ default-router 10.154.21.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC19AC02#
+
+--- 172.25.0.59 (172.25.0.59) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC19AC13(config)#ip dhcp pool GUEST
+SWTC19AC13(dhcp-config)# vrf GUEST
+% Warning: VRF GUEST not configured globally.
+SWTC19AC13(dhcp-config)# lease 0 4
+SWTC19AC13(dhcp-config)#end
+SWTC19AC13#terminal length 0
+SWTC19AC13#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ lease 0 4
+SWTC19AC13#
+
+--- 172.25.0.60 (172.25.0.60) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC19AC20(config)#ip dhcp pool GUEST
+SWTC19AC20(dhcp-config)# vrf GUEST
+SWTC19AC20(dhcp-config)# lease 0 4
+SWTC19AC20(dhcp-config)#end
+SWTC19AC20#terminal length 0
+SWTC19AC20#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST-EDGE
+ vrf GUEST-EDGE
+ network 10.154.16.0 255.255.252.0
+ default-router 10.154.16.2 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+ip dhcp pool GUEST
+ vrf GUEST
+ lease 0 4
+SWTC19AC20#
+
+--- 172.18.2.131 (172.18.2.131) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC20AC01(config)#ip dhcp pool GUEST
+SWTC20AC01(dhcp-config)# vrf GUEST
+SWTC20AC01(dhcp-config)# lease 0 4
+SWTC20AC01(dhcp-config)#end
+SWTC20AC01#terminal length 0
+SWTC20AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.22.0 255.255.255.0
+ default-router 10.154.22.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC20AC01#
+
+--- 172.18.2.139 (172.18.2.139) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC20AC02(config)#ip dhcp pool GUEST
+SWTC20AC02(dhcp-config)# vrf GUEST
+SWTC20AC02(dhcp-config)# lease 0 4
+SWTC20AC02(dhcp-config)#end
+SWTC20AC02#terminal length 0
+SWTC20AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.23.0 255.255.255.0
+ default-router 10.154.23.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC20AC02#
+
+--- 172.18.2.147 (172.18.2.147) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC21AC01(config)#ip dhcp pool GUEST
+SWTC21AC01(dhcp-config)# vrf GUEST
+SWTC21AC01(dhcp-config)# lease 0 4
+SWTC21AC01(dhcp-config)#end
+SWTC21AC01#terminal length 0
+SWTC21AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.24.0 255.255.255.0
+ default-router 10.154.24.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC21AC01#
+
+--- 172.18.2.155 (172.18.2.155) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC21AC02(config)#ip dhcp pool GUEST
+SWTC21AC02(dhcp-config)# vrf GUEST
+SWTC21AC02(dhcp-config)# lease 0 4
+SWTC21AC02(dhcp-config)#end
+SWTC21AC02#terminal length 0
+SWTC21AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.25.0 255.255.255.0
+ default-router 10.154.25.1 
+ dns-server 1.1.1.1 8.8.8.8 
+ lease 0 4
+SWTC21AC02#
+
+--- 172.18.2.163 (172.18.2.163) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC22AC01(config)#ip dhcp pool GUEST
+SWTC22AC01(dhcp-config)# vrf GUEST
+SWTC22AC01(dhcp-config)# lease 0 4
+SWTC22AC01(dhcp-config)#end
+SWTC22AC01#terminal length 0
+SWTC22AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.26.0 255.255.255.0
+ default-router 10.154.26.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC22AC01#
+
+--- 172.18.2.171 (172.18.2.171) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC22AC02(config)#ip dhcp pool GUEST
+SWTC22AC02(dhcp-config)# vrf GUEST
+SWTC22AC02(dhcp-config)# lease 0 4
+SWTC22AC02(dhcp-config)#end
+SWTC22AC02#terminal length 0
+SWTC22AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.27.0 255.255.255.0
+ default-router 10.154.27.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC22AC02#
+
+--- 172.18.2.179 (172.18.2.179) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC23AC01(config)#ip dhcp pool GUEST
+SWTC23AC01(dhcp-config)# vrf GUEST
+SWTC23AC01(dhcp-config)# lease 0 4
+SWTC23AC01(dhcp-config)#end
+SWTC23AC01#terminal length 0
+SWTC23AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.28.0 255.255.255.0
+ default-router 10.154.28.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC23AC01#
+
+--- 172.18.2.187 (172.18.2.187) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC23AC02(config)#ip dhcp pool GUEST
+SWTC23AC02(dhcp-config)# vrf GUEST
+SWTC23AC02(dhcp-config)# lease 0 4
+SWTC23AC02(dhcp-config)#end
+SWTC23AC02#terminal length 0
+SWTC23AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.29.0 255.255.255.0
+ default-router 10.154.29.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC23AC02#
+
+--- 172.18.2.195 (172.18.2.195) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC24AC01(config)#ip dhcp pool GUEST
+SWTC24AC01(dhcp-config)# vrf GUEST
+SWTC24AC01(dhcp-config)# lease 0 4
+SWTC24AC01(dhcp-config)#end
+SWTC24AC01#terminal length 0
+SWTC24AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.30.0 255.255.255.0
+ default-router 10.154.30.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC24AC01#
+
+--- 172.18.3.11 (172.18.3.11) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC24AC02(config)#ip dhcp pool GUEST
+SWTC24AC02(dhcp-config)# vrf GUEST
+SWTC24AC02(dhcp-config)# lease 0 4
+SWTC24AC02(dhcp-config)#end
+SWTC24AC02#terminal length 0
+SWTC24AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.31.0 255.255.255.0
+ default-router 10.154.31.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC24AC02#
+
+--- 172.18.2.203 (172.18.2.203) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC25AC01(config)#ip dhcp pool GUEST
+SWTC25AC01(dhcp-config)# vrf GUEST
+SWTC25AC01(dhcp-config)# lease 0 4
+SWTC25AC01(dhcp-config)#end
+SWTC25AC01#terminal length 0
+SWTC25AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.32.0 255.255.255.0
+ default-router 10.154.32.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC25AC01#
+
+--- 172.18.2.211 (172.18.2.211) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC25AC02(config)#ip dhcp pool GUEST
+SWTC25AC02(dhcp-config)# vrf GUEST
+SWTC25AC02(dhcp-config)# lease 0 4
+SWTC25AC02(dhcp-config)#end
+SWTC25AC02#terminal length 0
+SWTC25AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.33.0 255.255.255.0
+ default-router 10.154.33.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC25AC02#
+
+--- 172.18.2.219 (172.18.2.219) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC26AC01(config)#ip dhcp pool GUEST
+SWTC26AC01(dhcp-config)# vrf GUEST
+SWTC26AC01(dhcp-config)# lease 0 4
+SWTC26AC01(dhcp-config)#end
+SWTC26AC01#terminal length 0
+SWTC26AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.34.0 255.255.255.0
+ default-router 10.154.34.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC26AC01#
+
+--- 172.18.2.227 (172.18.2.227) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC26AC02(config)#ip dhcp pool GUEST
+SWTC26AC02(dhcp-config)# vrf GUEST
+SWTC26AC02(dhcp-config)# lease 0 4
+SWTC26AC02(dhcp-config)#end
+SWTC26AC02#terminal length 0
+SWTC26AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.35.0 255.255.255.0
+ default-router 10.154.35.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC26AC02#
+
+--- 172.18.3.51 (172.18.3.51) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC50AC01(config)#ip dhcp pool GUEST
+SWTC50AC01(dhcp-config)# vrf GUEST
+SWTC50AC01(dhcp-config)# lease 0 4
+SWTC50AC01(dhcp-config)#end
+SWTC50AC01#terminal length 0
+SWTC50AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.36.0 255.255.255.0
+ default-router 10.154.36.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC50AC01#
+
+--- 172.18.3.59 (172.18.3.59) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC50AC02(config)#ip dhcp pool GUEST
+SWTC50AC02(dhcp-config)# vrf GUEST
+SWTC50AC02(dhcp-config)# lease 0 4
+SWTC50AC02(dhcp-config)#end
+SWTC50AC02#terminal length 0
+SWTC50AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.37.0 255.255.255.0
+ default-router 10.154.37.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC50AC02#
+
+--- 172.18.3.67 (172.18.3.67) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC51AC01(config)#ip dhcp pool GUEST
+SWTC51AC01(dhcp-config)# vrf GUEST
+SWTC51AC01(dhcp-config)# lease 0 4
+SWTC51AC01(dhcp-config)#end
+SWTC51AC01#terminal length 0
+SWTC51AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.38.0 255.255.255.0
+ default-router 10.154.38.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC51AC01#
+
+--- 172.18.3.75 (172.18.3.75) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC51AC02(config)#ip dhcp pool GUEST
+SWTC51AC02(dhcp-config)# vrf GUEST
+SWTC51AC02(dhcp-config)# lease 0 4
+SWTC51AC02(dhcp-config)#end
+SWTC51AC02#terminal length 0
+SWTC51AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.39.0 255.255.255.0
+ default-router 10.154.39.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC51AC02#
+
+--- 10.8.226.249 (10.8.226.249) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC51AC03(config)#ip dhcp pool GUEST
+SWTC51AC03(dhcp-config)# vrf GUEST
+% Warning: VRF GUEST not configured globally.
+SWTC51AC03(dhcp-config)# lease 0 4
+SWTC51AC03(dhcp-config)#end
+SWTC51AC03#terminal length 0
+SWTC51AC03#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ lease 0 4
+SWTC51AC03#
+
+--- 172.18.3.82 (172.18.3.82) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC52AC01(config)#ip dhcp pool GUEST
+SWTC52AC01(dhcp-config)# vrf GUEST
+SWTC52AC01(dhcp-config)# lease 0 4
+SWTC52AC01(dhcp-config)#end
+SWTC52AC01#terminal length 0
+SWTC52AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.40.0 255.255.255.0
+ default-router 10.154.40.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC52AC01#
+
+--- 172.18.3.89 (172.18.3.89) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWTC52AC02(config)#ip dhcp pool GUEST
+SWTC52AC02(dhcp-config)# vrf GUEST
+SWTC52AC02(dhcp-config)# lease 0 4
+SWTC52AC02(dhcp-config)#end
+SWTC52AC02#terminal length 0
+SWTC52AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.41.0 255.255.255.0
+ default-router 10.154.41.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SWTC52AC02#
+

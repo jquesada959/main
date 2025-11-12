@@ -1,0 +1,4 @@
+sh run | sec dhcp
+class-map match-any system-cpp-police-dhcp-snooping
+  description DHCP snooping
+SWTC51AC03#

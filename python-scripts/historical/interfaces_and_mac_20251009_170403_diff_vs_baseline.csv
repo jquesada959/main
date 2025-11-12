@@ -1,0 +1,23 @@
+host,interface,admin_status,oper_status,description,mac address,vlan
+172.18.2.123,Tw3/0/27,up,up,"""TSA 19 Floor""",00e0.4c68.0182,2119
+172.18.2.123,Po10,up,up,,00e0.4cc3.578a,2119
+172.18.2.123,Te3/0/39,up,up,"""TSA 19 Floor""",00e0.4cc3.64da,2119
+172.18.2.123,Tw2/0/18,up,up,"""DATA - Wired - 802.1x""",a029.19bd.4c96,2119
+172.18.2.123,Tw3/0/33,up,up,"""TSA 19 Floor""",e8cf.83be.5999,2119
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,4eee.a547.46d8,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,b6c3.ee2b.b3a9,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,4eee.a547.46d8,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,b6c3.ee2b.b3a9,3290
+172.18.2.131,Tw2/0/25,up,up,"""DATA - Wired - 802.1x""",c442.6815.2e1a,1120
+172.18.2.139,Tw3/0/19,up,up,"""DATA - Wired - 802.1x""",0005.a626.8bd5,2820
+172.18.3.11,Tw2/0/12,up,up,"""DATA - Wired - 802.1x""",b04f.1304.fd7b,2124
+172.18.3.11,Te4/0/46,up,up,"""WAP Ports""",5028.4a83.0b76,3290
+172.18.3.11,Te4/0/46,up,up,"""WAP Ports""",f267.0008.b91f,3290
+172.18.3.59,Te2/0/48,up,up,"""WAP Ports""",ac23.16ec.e0c2,3290
+172.18.3.67,Te1/0/48,up,up,"""WAP Ports""",ceb7.9beb.e1e8,3290
+172.18.3.75,Te1/0/48,up,up,"""WAP Ports""",ac23.16ec.e2a2,2151
+172.18.3.75,Tw5/0/28,up,up,"""DATA - Wired - 802.1x""",e430.2250.3336,2151
+172.18.3.82,Te2/0/45,up,up,"""WAP Ports""",1893.41f9.d3af,3290
+172.18.3.82,Te2/0/45,up,up,"""WAP Ports""",3ebc.b38f.195a,3290
+172.18.3.82,Te2/0/45,up,up,"""WAP Ports""",9065.84b7.04f8,3290
+172.18.3.82,Te2/0/45,up,up,"""WAP Ports""",c638.04e1.7082,3290

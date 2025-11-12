@@ -1,0 +1,13 @@
+sh run | sec dhcp
+ip dhcp excluded-address vrf GUEST-EDGE 10.154.83.1 10.154.83.10
+ip dhcp excluded-address vrf GUEST-EDGE 10.154.16.1 10.154.16.10
+ip dhcp pool GUEST-EDGE
+ vrf GUEST-EDGE
+ network 10.154.16.0 255.255.252.0
+ default-router 10.154.16.2 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+class-map match-any system-cpp-police-dhcp-snooping
+  description DHCP snooping
+snmp-server enable traps dhcp
+SWTC19AC20#

@@ -1,0 +1,14 @@
+sh run | sec dhcp
+ip dhcp excluded-address vrf GUEST 10.154.41.1 10.154.41.5
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.41.0 255.255.255.0
+ default-router 10.154.41.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+class-map match-any system-cpp-police-dhcp-snooping
+  description DHCP snooping
+ ip dhcp client client-id ascii FJC26421DH3
+ ip address dhcp
+snmp-server enable traps dhcp
+SWTC52AC02#

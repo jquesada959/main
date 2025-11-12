@@ -1,0 +1,321 @@
+host,interface,admin_status,oper_status,description,mac address,vlan
+172.18.2.115,Tw2/0/4,up,up,"""DATA - Wired - 802.1x""",4825.6722.ea3d,1119
+172.18.2.115,Te2/0/46,up,up,"""WAP Ports""",ac23.16e9.58e9,1119
+172.18.2.115,Tw2/0/20,up,up,"""DATA - Wired - 802.1x""",d4a2.cd2d.9102,1119
+172.18.2.123,Te4/0/37,up,up,"""TSA 19 Floor""",00e0.4cc3.422d,2119
+172.18.2.123,Po10,up,up,,00e0.4cc3.46e9,2119
+172.18.2.123,Po10,up,up,,00e0.4cc3.578a,2119
+172.18.2.123,Po10,up,up,,00e0.4cc3.5bbe,2119
+172.18.2.123,Te5/0/41,up,up,"""TSA 19 Floor""",00e0.4cc5.90f3,2119
+172.18.2.123,Tw4/0/13,up,up,"""DATA - Wired - 802.1x""",4825.6716.13db,2119
+172.18.2.123,Te1/0/48,up,up,"""WAP Ports""",ac23.16e9.58a8,2119
+172.18.2.123,Tw5/0/31,up,up,"""TSA 19 Floor""",b4e9.b8f6.4cd3,2119
+172.18.2.123,Te5/0/42,up,up,"""TSA 19 Floor""",d046.0cb7.cd49,2119
+172.18.2.123,Tw3/0/20,up,up,"""DATA - Wired - 802.1x""",d4a2.cd2d.0de8,2119
+172.18.2.123,Te5/0/44,up,up,"""TSA 19 Floor""",d4a2.cd39.0b56,2119
+172.18.2.123,Tw6/0/21,up,up,"""DATA - Wired - 802.1x""",e430.224a.a039,2119
+172.18.2.123,Tw6/0/8,,,,e8cf.83be.7d64,2119
+172.18.2.123,Te1/0/43,up,up,"""AV - Wired - 802.1x""",c463.fb06.8ff7,2819
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,066a.e989.99b0,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,12a8.144f.990e,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,1626.00b4.7848,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,1a88.90ad.f011,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,1e76.0332.ebd2,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,1ed7.2c5d.59c7,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,2a80.415e.5a11,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,3aa9.3b2d.91b1,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,5288.f815.60d0,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,6e3c.da01.033a,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,7a17.059b.eeb2,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,843a.4b70.7034,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.8306,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.831b,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.9206,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.9a86,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.b286,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.b29b,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.c61b,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.e69b,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.ea06,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.eb86,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.f3c6,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16eb.f3db,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16ef.3f1b,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16ef.f55b,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16f0.e306,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16f0.e318,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16f3.7dc6,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ac23.16f3.7ddb,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,b248.a187.e4db,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,b60e.b087.d487,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,c8e2.652e.7994,3290
+172.25.0.59,Po12,up,up,WTC-ER01-02-PO,ee53.e568.fc25,3290
+172.25.0.60,Po10,up,up,to WWTC19WC05: Port1-2,424a.11d9.95f3,3234
+172.25.0.60,Po11,up,up,to WWTC19WC06: Port1-2,46fe.d7a4.2560,3234
+172.25.0.60,Po11,up,up,to WWTC19WC06: Port1-2,5af3.727d.145a,3234
+172.25.0.60,Po11,up,up,to WWTC19WC06: Port1-2,628c.36af.54e2,3234
+172.25.0.60,Po11,up,up,to WWTC19WC06: Port1-2,6e23.e7fc.7a8c,3234
+172.25.0.60,Po11,up,up,to WWTC19WC06: Port1-2,8eb5.cf68.8fba,3234
+172.25.0.60,Po11,up,up,to WWTC19WC06: Port1-2,b693.c98f.3700,3234
+172.25.0.60,Po10,up,up,to WWTC19WC05: Port1-2,c82a.dd87.3105,3234
+172.25.0.60,Po11,up,up,to WWTC19WC06: Port1-2,def4.ba9c.ed24,3234
+172.25.0.60,Po11,up,up,to WWTC19WC06: Port1-2,ea3d.6b62.6c83,3234
+172.25.0.60,Po11,up,up,to WWTC19WC06: Port1-2,ea63.4c00.1b21,3234
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,066a.e989.99b0,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,12a8.144f.990e,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,1a88.90ad.f011,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,1e76.0332.ebd2,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,1ed7.2c5d.59c7,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,2a80.415e.5a11,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,3aa9.3b2d.91b1,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,5231.78d7.6b83,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,5288.f815.60d0,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,6e3c.da01.033a,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,7215.7601.eb75,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,7a17.059b.eeb2,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,843a.4b70.7034,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.831b,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.9206,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.921b,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.9a86,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.b286,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.b29b,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.c61b,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.e69b,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.ea06,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.eb86,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.f3c6,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16eb.f3db,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16ef.3f1b,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16ef.f55b,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16f0.e306,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16f0.e318,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16f3.7dc6,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ac23.16f3.7ddb,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,b248.a187.e4db,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,b60e.b087.d487,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,c8e2.652e.7994,3290
+172.25.0.60,Po16,up,up,WTC-ER01-02-PO,ee53.e568.fc25,3290
+172.18.2.131,Te1/0/47,up,up,"""WAP Ports""",1e6d.ab3c.eacc,3290
+172.18.2.131,Te2/0/48,up,up,"""WAP Ports""",4e6b.690c.b618,3290
+172.18.2.131,Te2/0/43,up,up,"""WAP Ports""",6ecf.0656.aa77,3290
+172.18.2.131,Te2/0/43,up,up,"""WAP Ports""",82fc.bcb5.df92,3290
+172.18.2.131,Vl3290,up,up,GUEST,a0bc.6ffb.ed4c,3290
+172.18.2.131,Te2/0/48,up,up,"""WAP Ports""",b266.9b34.cd6e,3290
+172.18.2.131,Tw2/0/25,up,up,"""DATA - Wired - 802.1x""",c442.6815.2e1a,1120
+172.18.2.139,Tw3/0/23,up,up,"""DATA - Wired - 802.1x""",a029.19fe.fc6e,2120
+172.18.2.139,Te1/0/43,up,up,"""WAP Ports""",ac23.16e9.596b,2120
+172.18.2.139,Te1/0/37,up,up,"""AV - Wired - 802.1x""",c463.fb06.89bc,2120
+172.18.2.139,Te3/0/43,up,up,"""AV - Wired - 802.1x""",00e0.db52.d508,2820
+172.18.2.139,Te1/0/44,up,up,"""WAP Ports""",1e6d.ab3c.eacc,3290
+172.18.2.139,Te2/0/43,up,up,"""WAP Ports""",4e79.f077.23d4,3290
+172.18.2.139,Te2/0/43,up,up,"""WAP Ports""",a26a.0743.1805,3290
+172.18.2.139,Te1/0/43,up,up,"""WAP Ports""",ac23.16e9.596b,3290
+172.18.2.139,Te1/0/47,up,up,"""WAP Ports""",ac23.16eb.ef07,3290
+172.18.2.147,Te2/0/46,up,up,"""WAP Ports""",066a.e989.99b0,3290
+172.18.2.147,Te2/0/45,up,up,"""WAP Ports""",ac23.16ec.fd32,3290
+172.18.2.147,Te3/0/45,up,up,"""WAP Ports""",ac23.16f0.ee5c,3290
+172.18.2.147,Te2/0/45,up,up,"""WAP Ports""",ac23.16f3.a6dc,3290
+172.18.2.147,Te1/0/46,up,up,"""WAP Ports""",b60e.b087.d487,3290
+172.18.2.155,Te2/0/47,up,up,"""WAP Ports""",066a.e989.99b0,3290
+172.18.2.155,Te4/0/46,up,up,"""WAP Ports""",0eee.4126.aeec,3290
+172.18.2.155,Te3/0/47,up,up,"""WAP Ports""",4eb6.e9b0.bc64,3290
+172.18.2.155,Te4/0/46,up,up,"""WAP Ports""",7a6b.d07e.c090,3290
+172.18.2.155,Te4/0/45,up,up,"""WAP Ports""",8230.ffb0.d897,3290
+172.18.2.155,Te4/0/46,up,up,"""WAP Ports""",ac23.16f0.f21c,3290
+172.18.2.155,Te4/0/46,up,up,"""WAP Ports""",de83.8c99.a314,3290
+172.18.2.155,Te4/0/46,up,up,"""WAP Ports""",facb.c28d.ecc1,3290
+172.18.2.155,Vl1227,up,up,GUEST,9c09.8b13.17d1,1227
+172.18.2.163,Tw3/0/2,up,up,"""DATA - Wired - 802.1x""",1098.1963.785e,1122
+172.18.2.163,Tw3/0/1,up,up,"""DATA - Wired - 802.1x""",1098.1963.a937,1122
+172.18.2.163,Te1/0/45,up,up,"""WAP Ports""",ac23.16e9.587b,1122
+172.18.2.163,Te2/0/47,up,up,"""WAP Ports""",0a5a.39f6.bfea,3290
+172.18.2.163,Te3/0/46,up,up,"""WAP Ports""",563b.bb4e.1da9,3290
+172.18.2.163,Te3/0/46,up,up,"""WAP Ports""",9684.8c41.94b2,3290
+172.18.2.163,Te4/0/46,up,up,"""WAP Ports""",9a2e.dfcf.bf5a,3290
+172.18.2.163,Te2/0/47,up,up,"""WAP Ports""",b2ea.e502.60dd,3290
+172.18.2.163,Vl3290,up,up,GUEST,cc79.d717.bdcc,3290
+172.18.2.163,Te2/0/47,up,up,"""WAP Ports""",e675.e264.5d75,3290
+172.18.2.163,Te2/0/47,up,up,"""WAP Ports""",ee3c.c3d8.def7,3290
+172.18.2.171,Te4/0/47,up,up,"""WAP Ports""",5603.fb5c.fba3,3290
+172.18.2.171,Te4/0/47,up,up,"""WAP Ports""",7207.d974.d5a7,3290
+172.18.2.171,Te1/0/45,up,up,"""WAP Ports""",92e7.211f.3188,3290
+172.18.2.171,Te1/0/48,up,up,"""WAP Ports""",a6cb.9934.238c,3290
+172.18.2.171,Te1/0/48,up,up,"""WAP Ports""",ba25.0c4c.182d,3290
+172.18.2.171,Te3/0/45,up,up,"""WAP Ports""",be1f.da97.cad8,3290
+172.18.2.171,Te2/0/48,up,up,"""WAP Ports""",be79.7206.5247,3290
+172.18.2.171,Te2/0/48,up,up,"""WAP Ports""",c255.f4e3.8952,3290
+172.18.2.171,Te2/0/48,up,up,"""WAP Ports""",ceb0.3618.a6bc,3290
+172.18.2.171,Te4/0/45,up,up,"""WAP Ports""",e27d.a8c1.2c30,3290
+172.18.2.171,Te1/0/45,up,up,"""WAP Ports""",f29a.88d5.8343,3290
+172.18.2.171,Te4/0/41,up,up,"""WAP Ports""",fe85.edcd.a7f9,3290
+172.18.2.179,Te2/0/47,up,up,"""WAP Ports""",26fc.944c.092c,3290
+172.18.2.179,Te3/0/47,up,up,"""WAP Ports""",32ba.e5cf.bbd1,3290
+172.18.2.179,Te2/0/47,up,up,"""WAP Ports""",4a10.0b99.2993,3290
+172.18.2.179,Te2/0/46,up,up,"""WAP Ports""",6ae7.463f.997a,3290
+172.18.2.179,Te3/0/47,up,up,"""WAP Ports""",8a3e.b77f.d50a,3290
+172.18.2.179,Te1/0/46,up,up,"""WAP Ports""",ac23.16f0.efdb,3290
+172.18.2.179,Te3/0/45,up,up,"""WAP Ports""",ac23.16f0.f0d8,3290
+172.18.2.179,Te4/0/45,up,up,"""WAP Ports""",ac23.16f2.849b,3290
+172.18.2.179,Te4/0/45,up,up,"""WAP Ports""",ba17.461f.e087,3290
+172.18.2.187,Tw1/0/3,up,up,"""DATA - Wired - 802.1x""",1098.1963.7771,2123
+172.18.2.187,Te3/0/47,up,up,"""WAP Ports""",ac23.16ec.fa2b,2123
+172.18.2.187,Te3/0/47,up,up,"""WAP Ports""",1a51.3be5.be51,3290
+172.18.2.187,Te4/0/46,up,up,"""WAP Ports""",1e1e.4526.c086,3290
+172.18.2.187,Te2/0/46,up,up,"""WAP Ports""",360f.774a.2fb9,3290
+172.18.2.187,Te3/0/47,up,up,"""WAP Ports""",ac23.16ec.fa2b,3290
+172.18.2.187,Te1/0/46,up,up,"""WAP Ports""",ac23.16f2.855c,3290
+172.18.2.187,Te1/0/45,up,up,"""WAP Ports""",ac23.16f2.865c,3290
+172.18.2.187,Te1/0/47,up,up,"""WAP Ports""",ac23.16f3.7e9b,3290
+172.18.2.187,Te3/0/47,up,up,"""WAP Ports""",ac23.16f3.801b,3290
+172.18.2.187,Te2/0/47,up,up,"""WAP Ports""",ac23.16f3.855c,3290
+172.18.2.187,Te4/0/46,up,up,"""WAP Ports""",ac23.16f3.9bdc,3290
+172.18.2.187,Te2/0/45,up,up,"""WAP Ports""",ba17.461f.e087,3290
+172.18.2.187,Te2/0/47,up,up,"""WAP Ports""",fe6f.f254.3cc1,3290
+172.18.2.195,Tw4/0/10,up,up,"""DATA - Wired - 802.1x""",3814.28d9.2b4b,1124
+172.18.2.195,Tw1/0/24,up,up,"""DATA - Wired - 802.1x""",e8cf.83b6.a205,1124
+172.18.2.195,Vl1222,up,up,P2P-ER02-AC,8027.6cc6.5dca,1222
+172.18.2.195,Te2/0/45,up,up,"""WAP Ports""",12c2.b71c.3657,3290
+172.18.2.195,Te2/0/47,up,up,"""WAP Ports""",1ee4.e25d.a468,3290
+172.18.3.11,Tw3/0/21,up,up,"""DATA - Wired - 802.1x""",0892.045d.bc61,2124
+172.18.3.11,Te4/0/46,up,up,"""WAP Ports""",ac23.16ec.e5db,2124
+172.18.3.11,Tw2/0/2,up,up,"""DATA - Wired - 802.1x""",b07b.2521.1f3e,2124
+172.18.3.11,Te4/0/46,up,up,"""WAP Ports""",2677.ef15.caa5,3290
+172.18.3.11,Te2/0/45,up,up,"""WAP Ports""",5689.b316.ce24,3290
+172.18.3.11,Te1/0/47,up,up,"""WAP Ports""",b290.5a7d.b7d4,3290
+172.18.3.11,Tw2/0/30,up,up,"""DATA - Wired - 802.1x""",d89e.f319.31f4,888
+172.18.2.203,Te4/0/45,up,up,"""WAP Ports""",3a70.e9b6.1c8a,3290
+172.18.2.203,Te4/0/45,up,up,"""WAP Ports""",4697.9c7a.4d40,3290
+172.18.2.203,Tw2/0/23,up,up,"""DATA - Wired - 802.1x""",0892.045d.ba34,1125
+172.18.2.211,Te4/0/47,up,up,"""WAP Ports""",0e59.270c.fa3a,3290
+172.18.2.211,Te2/0/48,up,up,"""WAP Ports""",2e8b.1e9a.7189,3290
+172.18.2.211,Te2/0/48,up,up,"""WAP Ports""",523c.1d28.80d9,3290
+172.18.2.211,Te1/0/48,up,up,"""WAP Ports""",9af5.581a.8aab,3290
+172.18.2.211,Te2/0/48,up,up,"""WAP Ports""",ac23.16ec.d2d0,3290
+172.18.2.211,Te4/0/48,up,up,"""WAP Ports""",ac23.16f3.105b,3290
+172.18.2.211,Te3/0/47,up,up,"""WAP Ports""",ac23.16f3.385b,3290
+172.18.2.211,Te4/0/46,up,up,"""WAP Ports""",eeae.425d.444d,3290
+172.18.2.211,Te2/0/48,up,up,"""WAP Ports""",ac23.16ec.d2d0,2125
+172.18.2.211,Vl2725,up,up,Video_25S,8027.6cc8.efe0,2725
+172.18.2.219,Te4/0/45,up,up,"""WAP Ports""",4229.057c.1a6b,3290
+172.18.2.219,Te3/0/46,up,up,"""WAP Ports""",9e73.89c5.b4be,3290
+172.18.2.227,Te1/0/46,up,up,"""WAP Ports""",9e73.89c5.b4be,3290
+172.18.2.227,Vl3290,up,up,GUEST,a0bc.6ffb.f4cc,3290
+172.18.2.227,Te1/0/47,up,up,"""WAP Ports""",ac23.16f2.569c,3290
+172.18.2.227,Te4/0/45,up,up,"""WAP Ports""",ac23.16f3.2f07,3290
+172.18.3.51,Te3/0/40,up,up,"""DATA - Wired - 802.1x""",00be.4348.2bd8,1150
+172.18.3.51,Tw1/0/13,up,up,"""DATA - Wired - 802.1x""",0892.0460.6271,1150
+172.18.3.51,Tw2/0/1,up,up,"""DATA - Wired - 802.1x""",1098.1963.7762,1150
+172.18.3.51,Te3/0/39,up,up,"""DATA - Wired - 802.1x""",908d.6e3a.2014,1150
+172.18.3.51,Tw1/0/26,up,up,"""DATA - Wired - 802.1x""",a029.19bb.6902,1150
+172.18.3.51,Tw1/0/30,up,up,"""DATA - Wired - 802.1x""",a029.19bd.4f43,1150
+172.18.3.51,Tw2/0/4,up,up,"""DATA - Wired - 802.1x""",d4a2.cd2d.102f,1150
+172.18.3.51,Te1/0/38,up,up,"""DATA - Wired - 802.1x""",e8cf.83aa.871b,1150
+172.18.3.51,Tw5/0/1,up,up,"""DATA - Wired - 802.1x""",e8cf.83b6.39ad,1150
+172.18.3.51,Tw1/0/35,up,up,"""DATA - Wired - 802.1x""",e8cf.83b6.9f3b,1150
+172.18.3.51,Tw5/0/35,up,up,"""DATA - Wired - 802.1x""",f025.7278.70c0,1150
+172.18.3.51,Te3/0/47,up,up,"""WAP Ports""",4277.2293.c382,3290
+172.18.3.51,Te1/0/45,up,up,"""WAP Ports""",5e38.707e.59c9,3290
+172.18.3.51,Te2/0/47,up,up,"""WAP Ports""",c6dd.4c2e.30c8,3290
+172.18.3.51,Te2/0/47,up,up,"""WAP Ports""",f614.dde3.3371,3290
+172.18.3.59,Tw1/0/32,up,up,"""DATA - Wired - 802.1x""",d4a2.cd2d.1284,2150
+172.18.3.59,Te4/0/40,up,up,"""DATA - Wired - 802.1x""",d4a2.cd2d.9251,2150
+172.18.3.59,Te4/0/47,up,up,"""AV - Wired - 802.1x""",c463.fb0d.d361,2750
+172.18.3.59,Te1/0/46,up,up,"""WAP Ports""",0a26.8d2f.0447,3290
+172.18.3.59,Te1/0/48,up,up,"""WAP Ports""",2e3e.5fe7.e5d3,3290
+172.18.3.59,Te1/0/46,up,up,"""WAP Ports""",4274.a247.9a14,3290
+172.18.3.59,Te2/0/47,up,up,"""WAP Ports""",6606.d243.be17,3290
+172.18.3.59,Te3/0/48,up,up,"""WAP Ports""",9e91.ee65.995b,3290
+172.18.3.59,Te3/0/45,up,up,"""WAP Ports""",ac23.16f2.229b,3290
+172.18.3.59,Te2/0/47,up,up,"""WAP Ports""",ac23.16f2.561b,3290
+172.18.3.59,Te1/0/46,up,up,"""WAP Ports""",c6dd.4c2e.30c8,3290
+172.18.3.59,Te3/0/48,up,up,"""WAP Ports""",ca67.1be8.95ca,3290
+172.18.3.59,Te3/0/48,up,up,"""WAP Ports""",caf0.47f1.c1db,3290
+172.18.3.59,Te3/0/47,up,up,"""WAP Ports""",ce3a.ac50.dd1b,3290
+172.18.3.59,Te1/0/45,up,up,"""WAP Ports""",eae4.c786.79a7,3290
+172.18.3.67,Tw1/0/26,up,up,"""DATA - Wired - 802.1x""",0892.045d.ba57,1151
+172.18.3.67,Tw2/0/8,up,up,"""DATA - Wired - 802.1x""",a029.19bd.4ac4,1151
+172.18.3.67,Tw1/0/8,up,up,"""DATA - Wired - 802.1x""",a029.19fe.f979,1151
+172.18.3.67,Tw1/0/31,up,up,"""DATA - Wired - 802.1x""",b04f.130c.f1f2,1151
+172.18.3.67,Tw1/0/24,up,up,"""DATA - Wired - 802.1x""",e8cf.83aa.8675,1151
+172.18.3.67,Tw1/0/4,up,up,"""DATA - Wired - 802.1x""",e8cf.83b6.3f5c,1151
+172.18.3.67,Te1/0/42,up,up,"""AV - Wired - 802.1x""",c463.fb02.0864,1751
+172.18.3.67,Te1/0/45,up,up,"""WAP Ports""",04cf.4bef.c42d,3290
+172.18.3.67,Te3/0/47,up,up,"""WAP Ports""",062d.ff6c.dc28,3290
+172.18.3.67,Te2/0/46,up,up,"""WAP Ports""",12e8.7600.7ccb,3290
+172.18.3.67,Te1/0/46,up,up,"""WAP Ports""",1a9b.6d85.11a0,3290
+172.18.3.67,Te1/0/45,up,up,"""WAP Ports""",2ebf.c095.fe99,3290
+172.18.3.67,Te2/0/47,up,up,"""WAP Ports""",4ecf.6e3f.ba3a,3290
+172.18.3.67,Te2/0/48,up,up,"""WAP Ports""",5a43.30e5.d75b,3290
+172.18.3.67,Te3/0/47,up,up,"""WAP Ports""",7215.7601.eb75,3290
+172.18.3.67,Te3/0/47,up,up,"""WAP Ports""",8c3b.4aa8.bc67,3290
+172.18.3.67,Te1/0/45,up,up,"""WAP Ports""",8e88.6e08.d994,3290
+172.18.3.67,Te1/0/45,up,up,"""WAP Ports""",98bd.80a0.3ea3,3290
+172.18.3.67,Te2/0/45,up,up,"""WAP Ports""",ac23.16f2.515c,3290
+172.18.3.67,Te1/0/48,up,up,"""WAP Ports""",ac23.16f2.7bdc,3290
+172.18.3.67,Te1/0/47,up,up,"""WAP Ports""",ac23.16f2.f6dc,3290
+172.18.3.67,Te2/0/46,up,up,"""WAP Ports""",ac23.16f3.35dc,3290
+172.18.3.67,Te3/0/47,up,up,"""WAP Ports""",ac23.16f3.389c,3290
+172.18.3.67,Te2/0/47,up,up,"""WAP Ports""",ac45.ef4c.54af,3290
+172.18.3.67,Te3/0/46,up,up,"""WAP Ports""",b24a.c622.3a8c,3290
+172.18.3.67,Te3/0/47,up,up,"""WAP Ports""",ba36.b2e3.7f2e,3290
+172.18.3.67,Te2/0/48,up,up,"""WAP Ports""",be5b.0b97.d534,3290
+172.18.3.67,Te3/0/47,up,up,"""WAP Ports""",c280.749b.f42d,3290
+172.18.3.67,Te3/0/46,up,up,"""WAP Ports""",caa9.e407.4166,3290
+172.18.3.67,Te1/0/45,up,up,"""WAP Ports""",cafb.df83.1f02,3290
+172.18.3.67,Te1/0/48,up,up,"""WAP Ports""",ce3a.ac50.dd1b,3290
+172.18.3.67,Te1/0/46,up,up,"""WAP Ports""",da1b.bae5.01cf,3290
+172.18.3.67,Te3/0/46,up,up,"""WAP Ports""",ead5.da45.fe8f,3290
+172.18.3.67,Te1/0/45,up,up,"""WAP Ports""",eafd.3059.a306,3290
+172.18.3.67,Te2/0/46,up,up,"""WAP Ports""",f0b6.1e86.c333,3290
+172.18.3.67,Te1/0/45,up,up,"""WAP Ports""",f426.7949.3c43,3290
+172.18.3.67,Te3/0/45,up,up,"""WAP Ports""",fad2.a3a7.e87b,3290
+172.18.3.75,Tw4/0/23,up,up,"""DATA - Wired - 802.1x""",1098.195f.5a52,2151
+172.18.3.75,Tw1/0/33,up,up,"""DATA - Wired - 802.1x""",3814.28d9.2b6a,2151
+172.18.3.75,Te3/0/45,up,up,"""WAP Ports""",ac23.16ec.e69e,2151
+172.18.3.75,Tw2/0/28,up,up,"""DATA - Wired - 802.1x""",d046.0cb7.cd26,2151
+172.18.3.75,Tw5/0/28,up,up,"""DATA - Wired - 802.1x""",e430.2250.3336,2151
+172.18.3.75,Te1/0/38,up,up,"""DATA - Wired - 802.1x""",e8cf.83b6.a221,2151
+172.18.3.75,Te1/0/47,up,up,"""WAP Ports""",1091.d100.3b1f,3290
+172.18.3.75,Te3/0/45,up,up,"""WAP Ports""",10e1.8e4a.af2c,3290
+172.18.3.75,Te2/0/47,up,up,"""WAP Ports""",1a88.90ad.f011,3290
+172.18.3.75,Te1/0/45,up,up,"""WAP Ports""",20c1.9bd9.b197,3290
+172.18.3.75,Te1/0/47,up,up,"""WAP Ports""",4845.e60d.a603,3290
+172.18.3.75,Te3/0/45,up,up,"""WAP Ports""",4a30.5240.b4ca,3290
+172.18.3.75,Te3/0/45,up,up,"""WAP Ports""",4c23.382c.6095,3290
+172.18.3.75,Te1/0/45,up,up,"""WAP Ports""",5277.db7f.65b4,3290
+172.18.3.75,Te3/0/46,up,up,"""WAP Ports""",822b.78c4.e6b9,3290
+172.18.3.75,Te1/0/47,up,up,"""WAP Ports""",8c3b.4a59.d6c8,3290
+172.18.3.75,Te1/0/47,up,up,"""WAP Ports""",8ee9.bc91.3dcb,3290
+172.18.3.75,Te3/0/46,up,up,"""WAP Ports""",921c.c6a8.64f1,3290
+172.18.3.75,Te2/0/45,up,up,"""WAP Ports""",9267.e7d9.0712,3290
+172.18.3.75,Te2/0/48,up,up,"""WAP Ports""",a029.42d4.0e36,3290
+172.18.3.75,Te3/0/45,up,up,"""WAP Ports""",ac23.16ec.e69e,3290
+172.18.3.75,Te3/0/45,up,up,"""WAP Ports""",ac23.16f2.85dc,3290
+172.18.3.75,Te2/0/45,up,up,"""WAP Ports""",ac23.16f2.f747,3290
+172.18.3.75,Te1/0/47,up,up,"""WAP Ports""",ac23.16f3.39dc,3290
+172.18.3.75,Te1/0/48,up,up,"""WAP Ports""",c2cb.6d10.0f56,3290
+172.18.3.75,Te3/0/45,up,up,"""WAP Ports""",d67f.81ae.127b,3290
+172.18.3.75,Te2/0/47,up,up,"""WAP Ports""",ee53.e568.fc25,3290
+172.18.3.75,Te2/0/48,up,up,"""WAP Ports""",faa9.00df.026f,3290
+172.18.3.75,Te1/0/45,up,up,"""WAP Ports""",fad2.a3a7.e87b,3290
+172.18.3.82,Te1/0/48,up,up,"""WAP Ports""",8619.8a1f.6d9f,3290
+172.18.3.82,Vl3290,up,up,GUEST,8c84.42b6.84cc,3290
+172.18.3.82,Te1/0/48,up,up,"""WAP Ports""",a6d7.20c6.dce8,3290
+172.18.3.82,Te2/0/46,up,up,"""WAP Ports""",ac23.16eb.b958,3290
+172.18.3.82,Te2/0/46,up,up,"""WAP Ports""",ac23.16eb.b959,3290
+172.18.3.82,Te1/0/47,up,up,"""WAP Ports""",ac23.16eb.bc99,3290
+172.18.3.82,Te2/0/48,up,up,"""WAP Ports""",ac23.16eb.d987,3290
+172.18.3.82,Te1/0/43,up,up,"""WAP Ports""",ac23.16f0.d399,3290
+172.18.3.82,Te1/0/44,up,up,"""WAP Ports""",b03c.dc2f.6444,3290
+172.18.3.82,Te1/0/48,up,up,"""WAP Ports""",f2ef.6b3e.eca9,3290
+172.18.3.82,Te2/0/45,up,up,"""WAP Ports""",fad2.a3a7.e87b,3290
+172.18.3.89,Te2/0/46,up,up,"""WAP Ports""",062d.ff6c.dc28,3290
+172.18.3.89,Te2/0/45,up,up,"""WAP Ports""",6a2f.5cb4.6fc6,3290
+172.18.3.89,Te1/0/46,up,up,"""WAP Ports""",76da.41bb.fb78,3290
+172.18.3.89,Te1/0/44,up,up,"""WAP Ports""",a2dd.f409.0252,3290
+172.18.3.89,Te1/0/46,up,up,"""WAP Ports""",ac23.16eb.b8d9,3290
+172.18.3.89,Te1/0/44,up,up,"""WAP Ports""",ac23.16eb.c9d9,3290
+172.18.3.89,Te2/0/45,up,up,"""WAP Ports""",ac23.16eb.df47,3290
+172.18.3.89,Te1/0/43,up,up,"""WAP Ports""",ce3a.ac50.dd1b,3290
+172.18.3.89,Te2/0/44,up,up,"""WAP Ports""",fad2.a3a7.e87b,3290

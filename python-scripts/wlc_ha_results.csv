@@ -1,0 +1,1337 @@
+ip,model,serial_number,ha_summary,wireless_state,mobility_summary,mobility_anchor,timestamp,error
+172.18.30.129,WS-C3850-12X48U,FOC2229X0L4,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 1 year, 12 weeks, 1 day, 16 hours, 32 minutes
+Switchovers system experienced = 0
+              Standby failures = 12
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 1 year, 12 weeks, 1 day, 16 hours, 32 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 2
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 14 weeks, 20 hours, 19 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+
+RMON04CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          6     6       0
+802.11b/g/n        0     0       0
+All APs            6     6       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+RMON04CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 6
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+AP7872.5DFD.E114                  7872.5d31.e340    10.133.161.254    default-group                   
+AP7872.5D46.7414                  7872.5d49.6b60    10.133.161.254    default-group                   
+AP7872.5D46.741E                  7872.5d49.6c20    10.133.161.254    default-group                   
+AP7872.5D4F.0018                  7872.5d50.8760    10.133.161.254    default-group                   
+AP7872.5D4F.0082                  7872.5d50.8e00    10.133.161.254    default-group                   
+AP502F.A8DF.42A4                  b08b.cfe6.4f20    10.133.161.254    default-group                   
+
+RMON04CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+RMON04CR01",2025-11-03 16:45:37,
+172.18.23.1,WS-C3850-48P,FCW1924D0B1,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 1 week, 1 day, 5 hours, 25 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Simplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = Non-redundant
+              Maintenance Mode = Disabled
+                Communications = Down      Reason: Failure
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 1 week, 1 day, 5 hours, 25 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+Peer (slot: 0) information is not available because it is in 'DISABLED' state
+
+RTTO15AC01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          8     8       0
+802.11b/g/n        8     8       0
+All APs            8     8       0
+
+Client Summary
+
+Current Clients : 2
+Excluded Clients: 0
+Disabled Clients: 0
+
+RTTO15AC01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 8
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ATT015AP02                        80e0.1daf.1db0    10.131.133.254    default-group                   
+ATT015AP05                        80e0.1daf.2160    10.131.133.254    default-group                   
+ATT015AP03                        80e0.1dc1.ee00    10.131.133.254    default-group                   
+ATT015AP01                        80e0.1dc1.eef0    10.131.133.254    default-group                   
+ATT015AP04                        80e0.1dc1.eff0    10.131.133.254    default-group                   
+ATT015AP07                        80e0.1dc2.4c50    10.131.133.254    default-group                   
+ATT015AP06                        80e0.1dc2.bae0    10.131.133.254    default-group                   
+ATT015AP08                        80e0.1dc2.bb60    10.131.133.254    default-group                   
+
+RTTO15AC01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 2
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 1
+Total Anchor sub-domain Client : 0
+
+Mobility is the Sub-Domain state of the client.
+* indicates IP of the associated Sub-domain
+Associated Time in hours:minutes:seconds
+
+MAC Address     User Name   AP Name           IP Address      AssociatedTime  Mobility  SPG      Controller      Anchor IP       MTE
+------------------------------------------------------------------------------------------------------------------------------------
+b2e4.c25f.8c66  N/A         UNKN              0.0.0.0         00:00:01        Init      N/A      10.131.133.254  0.0.0.0         N  
+c82a.dd87.3105  N/A         ATT015AP04        10.136.140.24   07:30:39        Foreign   N/A      10.131.133.254  10.136.128.3    N  
+
+RTTO15AC01",2025-11-03 16:45:37,
+172.19.127.83,WS-C3850-48U,FOC2215L1LH,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 3 years, 18 weeks, 5 hours, 34 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Simplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = Non-redundant
+              Maintenance Mode = Disabled
+                Communications = Down      Reason: Failure
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 3 years, 18 weeks, 5 hours, 34 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+Peer (slot: 0) information is not available because it is in 'DISABLED' state
+
+SBCI02AC01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          4     4       0
+802.11b/g/n        0     0       0
+All APs            4     4       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+SBCI02AC01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 4
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ABCI00AP07                        780c.f04e.bd80    100.97.5.252      default-group                   
+ABCI00AP04                        7872.5d27.be80    100.97.5.252      default-group                   
+ABCI00AP05                        7872.5d27.c0c0    100.97.5.252      default-group                   
+ABCI00AP06                        7872.5d27.c380    100.97.5.252      default-group                   
+
+SBCI02AC01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+SBCI02AC01",2025-11-03 16:45:37,
+172.18.59.4,WS-C3850-24U,FOC2211U0C0,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 3 years, 18 weeks, 4 hours, 57 minutes
+Switchovers system experienced = 0
+              Standby failures = 1
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 3 years, 18 weeks, 4 hours, 56 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:cat3k_caa-universalk9.16.03.08.SPA.conf;
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 2
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 3 years, 12 weeks, 12 hours, 27 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:cat3k_caa-universalk9.16.03.08.SPA.conf;
+        Configuration register = 0x102
+
+
+RBCI03CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          3     3       0
+802.11b/g/n        0     0       0
+All APs            3     3       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+RBCI03CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 3
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ABCI00AP01                        780c.f039.8f20    100.97.3.254      default-group                   
+ABCI00AP02                        780c.f04e.b620    100.97.3.254      default-group                   
+ABCI00AP03                        7872.5db9.68a0    100.97.3.254      default-group                   
+
+RBCI03CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+RBCI03CR01",2025-11-03 16:45:37,
+172.18.57.132,WS-C3850-48U,FCW2215D0MF,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 1 year, 51 weeks, 3 days, 3 hours, 35 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 1 year, 51 weeks, 3 days, 3 hours, 34 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 2
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 1 year, 51 weeks, 3 days, 3 hours, 29 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+
+RBCF17CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          3     3       0
+802.11b/g/n        0     0       0
+All APs            3     3       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+RBCF17CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 3
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ABCF00AP03                        0081.c4c4.b030    100.96.163.254    default-group                   
+ABCF00AP01                        28ac.9e7b.38e0    100.96.163.254    default-group                   
+ABCF00AP02                        700f.6a79.fd40    100.96.163.254    default-group                   
+
+RBCF17CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+RBCF17CR01",2025-11-03 16:45:44,
+172.19.127.91,WS-C3850-24U,FCW1912C0ED,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 3 years, 18 weeks, 5 hours, 18 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 2
+        Current Software state = ACTIVE
+       Uptime in current state = 3 years, 18 weeks, 5 hours, 18 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 1
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 3 years, 18 weeks, 5 hours, 13 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+
+SBCI03AC01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          2     2       0
+802.11b/g/n        0     0       0
+All APs            2     2       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+SBCI03AC01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 2
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ABCI00AP10                        780c.f022.eee0    100.97.7.252      default-group                   
+ABCI00AP09                        7872.5d27.bcc0    100.97.7.252      default-group                   
+
+SBCI03AC01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+SBCI03AC01",2025-11-03 16:45:44,
+172.19.106.177,WS-C3850-12X48U,FOC2248X00Y,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 1 week, 2 days, 13 hours, 15 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 1 week, 2 days, 13 hours, 15 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 2
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 1 week, 2 days, 13 hours, 11 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+
+SDXB01AC01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          6     6       0
+802.11b/g/n        0     0       0
+All APs            6     6       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+SDXB01AC01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 6
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ADXB01AP01                        7488.bb01.efa0    10.132.227.254    default-group                   
+ADXB01AP04                        7488.bb01.f020    10.132.227.254    default-group                   
+ADXB01AP03                        7488.bb44.7160    10.132.227.254    default-group                   
+ADXB01AP02                        7488.bb44.73c0    10.132.227.254    default-group                   
+AP780C.F09D.A15A                  a093.518d.99c0    10.132.227.254    default-group                   
+AP780C.F09D.A172                  a093.518d.9b40    10.132.227.254    default-group                   
+
+SDXB01AC01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+SDXB01AC01",2025-11-03 16:45:42,
+172.18.43.131,WS-C3850-48P,FOC1852X1JS,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 3 days, 4 hours, 9 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 3 days, 4 hours, 9 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 3
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 3 days, 4 hours, 3 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+
+RDXB02CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          3     3       0
+802.11b/g/n        3     3       0
+All APs            3     3       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+RDXB02CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 3
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ADXB02AP02                        74a2.e65b.d5f0    10.132.225.254    default-group                   
+ADXB02AP01                        74a2.e678.f540    10.132.225.254    default-group                   
+ADXB02AP03                        74a2.e67e.e5e0    10.132.225.254    default-group                   
+
+RDXB02CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+RDXB02CR01",2025-11-03 16:45:43,
+172.18.60.132,WS-C3850-24U,FCW2211D03W,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 36 weeks, 2 days, 12 hours, 34 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 36 weeks, 2 days, 12 hours, 34 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 2
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 36 weeks, 2 days, 12 hours, 29 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+
+RBCQ03CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          5     5       0
+802.11b/g/n        0     0       0
+All APs            5     5       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+RBCQ03CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 5
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ABCQ00AP01                        4ce1.752a.7de0    100.98.3.254      default-group                   
+ABCQ00AP05                        4ce1.7569.99c0    100.98.3.254      default-group                   
+ABCQ00AP02                        4ce1.7569.9a20    100.98.3.254      default-group                   
+ABCQ00AP03                        4ce1.7586.8d60    100.98.3.254      default-group                   
+ABCQ00AP04                        4ce1.7588.8ac0    100.98.3.254      default-group                   
+
+RBCQ03CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+RBCQ03CR01",2025-11-03 16:45:49,
+172.18.9.6,WS-C3850-48P,FOC1817U1MQ,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 4 days, 7 hours, 29 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 3
+        Current Software state = ACTIVE
+       Uptime in current state = 4 days, 7 hours, 28 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 1
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 4 days, 7 hours, 23 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+
+RCYP01CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          2     2       0
+802.11b/g/n        2     2       0
+All APs            2     2       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+RCYP01CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 2
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ACYP00AP04                        40f4.eca2.6e60    10.129.65.254     default-group                   
+ACYP00AP03                        40f4.eca2.7370    10.129.65.254     default-group                   
+
+RCYP01CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+RCYP01CR01",2025-11-03 16:45:50,
+172.18.62.132,WS-C3850-24U,FOC2211U0BX,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 5 weeks, 4 days, 9 hours, 55 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 5 weeks, 4 days, 9 hours, 55 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 2
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 5 weeks, 4 days, 9 hours, 50 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+
+RBCX05CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          3     3       0
+802.11b/g/n        0     0       0
+All APs            3     3       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+RBCX05CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 3
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ABCX00AP02                        7872.5d70.14a0    100.98.227.254    default-group                   
+ABCX00AP01                        7872.5dbf.3b20    100.98.227.254    default-group                   
+ABCX00AP03                        a093.518d.3f20    100.98.227.254    default-group                   
+
+RBCX05CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+RBCX05CR01",2025-11-03 16:45:54,
+172.18.34.134,WS-C3850-12X48U,FCW2147C096,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 6 weeks, 17 hours, 1 minute
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 2
+        Current Software state = ACTIVE
+       Uptime in current state = 6 weeks, 17 hours, 1 minute
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 1
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 6 weeks, 16 hours, 56 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+
+RFGN00CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          6     6       0
+802.11b/g/n        0     0       0
+All APs            6     6       0
+
+Client Summary
+
+Current Clients : 1
+Excluded Clients: 0
+Disabled Clients: 0
+
+RFGN00CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 6
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+AFGN00AP03                        b4de.31d4.52a0    10.135.59.254     default-group                   
+AFGN00AP01                        b4de.31d4.54e0    10.135.59.254     default-group                   
+AFGN00AP06                        b4de.31db.cba0    10.135.59.254     default-group                   
+AFGN00AP04                        b4de.31db.cd40    10.135.59.254     default-group                   
+AFGN00AP05                        b4de.31ea.4fc0    10.135.59.254     default-group                   
+AFGN00AP02                        b4de.31ea.5100    10.135.59.254     default-group                   
+
+RFGN00CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 1
+Total Local sub-domain Client : 1
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+Mobility is the Sub-Domain state of the client.
+* indicates IP of the associated Sub-domain
+Associated Time in hours:minutes:seconds
+
+MAC Address     User Name   AP Name           IP Address      AssociatedTime  Mobility  SPG      Controller      Anchor IP       MTE
+------------------------------------------------------------------------------------------------------------------------------------
+da9b.4d75.f22a  78c67d66-1ac8-4AFGN00AP03        10.135.57.7     38:24:34        Local     N/A      10.135.59.254   0.0.0.0         N  
+
+RFGN00CR01",2025-11-03 16:45:56,
+172.18.44.3,WS-C3850-48P,FCW1903D0TU,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 15 weeks, 1 day, 20 hours, 29 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 15 weeks, 1 day, 20 hours, 29 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 4
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 15 weeks, 1 day, 20 hours, 22 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+
+RSHA10CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          6     6       0
+802.11b/g/n        6     6       0
+All APs            6     6       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+RSHA10CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 6
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ASHA10AP05                        0cd9.96db.5ad0    10.133.65.254     KSZ_WLAN2                       
+ASHA10AP06                        0cd9.96ec.3e90    10.133.65.254     KSZ_WLAN2                       
+ASHA10AP01                        a89d.2118.1c40    10.133.65.254     default-group                   
+ASHA10AP03                        a89d.2125.2440    10.133.65.254     default-group                   
+ASHA10AP04                        a89d.2126.0de0    10.133.65.254     default-group                   
+ASHA10AP02                        a89d.2126.1180    10.133.65.254     default-group                   
+
+RSHA10CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+RSHA10CR01",2025-11-03 16:45:53,
+172.18.66.132,WS-C3850-48U,FJB2330H0BA,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 17 weeks, 3 days, 8 hours, 43 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 2
+        Current Software state = ACTIVE
+       Uptime in current state = 17 weeks, 3 days, 8 hours, 43 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 1
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 17 weeks, 3 days, 8 hours, 37 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+
+RBDM04CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n         14    14       0
+802.11b/g/n        0     0       0
+All APs           14    14       0
+
+Client Summary
+
+Current Clients : 4
+Excluded Clients: 0
+Disabled Clients: 0
+
+RBDM04CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 14
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ABDM04AP13                        683b.788e.bd60    100.97.67.254     default-group                   
+ABDM04AP07                        683b.7895.e400    100.97.67.254     default-group                   
+ABDM04AP08                        683b.7896.1fe0    100.97.67.254     default-group                   
+ABDM04AP03                        683b.7896.2700    100.97.67.254     default-group                   
+ABDM04AP09                        683b.7896.2760    100.97.67.254     default-group                   
+ABDM04AP11                        683b.78a1.8620    100.97.67.254     default-group                   
+ABDM04AP04                        683b.78a1.8860    100.97.67.254     default-group                   
+ABDM04AP02                        683b.78a1.8920    100.97.67.254     default-group                   
+ABDM04AP14                        683b.78a1.90e0    100.97.67.254     default-group                   
+ABDM04AP06                        683b.78c0.e2a0    100.97.67.254     default-group                   
+ABDM04AP05                        683b.78c0.ea00    100.97.67.254     default-group                   
+ABDM04AP12                        683b.78c0.f3e0    100.97.67.254     default-group                   
+ABDM04AP10                        dc8c.37cf.3580    100.97.67.254     default-group                   
+ABDM04AP01                        dc8c.37cf.3940    100.97.67.254     default-group                   
+
+RBDM04CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 4
+Total Local sub-domain Client : 3
+Total Foreign sub-domain Client : 1
+Total Anchor sub-domain Client : 0
+
+Mobility is the Sub-Domain state of the client.
+* indicates IP of the associated Sub-domain
+Associated Time in hours:minutes:seconds
+
+MAC Address     User Name   AP Name           IP Address      AssociatedTime  Mobility  SPG      Controller      Anchor IP       MTE
+------------------------------------------------------------------------------------------------------------------------------------
+1212.51eb.d2fe  N/A         ABDM04AP07        10.128.15.10    21:07:45        Foreign   N/A      100.97.67.254   10.128.4.3      N  
+4c77.cb0e.0510  host/MYPC-03-FNABDM04AP12        100.97.64.254   13:13:32        Local     N/A      100.97.67.254   0.0.0.0         N  
+e8c8.2942.0ec8  host/MYPC-03-W1ABDM04AP01        100.97.65.175   12:23:50        Local     N/A      100.97.67.254   0.0.0.0         N  
+f4b3.0192.7912  host/MYPC-03-gVABDM04AP07        100.97.64.203   751:58:18       Local     N/A      100.97.67.254   0.0.0.0         N  
+
+RBDM04CR01",2025-11-03 16:45:59,
+100.97.114.1,Unknown,Unknown,"show version
+
+Incorrect usage.  Use the '?' or <TAB","key to list commands.
+
+(WBDN07WC01)","show redundancy
+
+Incorrect usage.  Use the '?' or <TAB","key to list commands.
+
+(WBDN07WC01)",2025-11-03 16:46:01,
+172.18.61.4,WS-C3850-48U,FOC2214U0VE,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 2 years, 47 weeks, 9 hours, 7 minutes
+Switchovers system experienced = 0
+              Standby failures = 2
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 2 years, 47 weeks, 9 hours, 6 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 2
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 23 weeks, 5 hours, 38 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+
+RBCR01CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          8     8       0
+802.11b/g/n        0     0       0
+All APs            8     8       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+RBCR01CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 8
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ABCR00AP01                        780c.f039.8f60    100.98.35.254     default-group                   
+ABCR00AP02                        780c.f039.90c0    100.98.35.254     default-group                   
+ABCR00AP03                        780c.f04e.bd40    100.98.35.254     default-group                   
+ABCR00AP04                        7872.5d27.b9a0    100.98.35.254     default-group                   
+ABCR00AP05                        7872.5d27.ba20    100.98.35.254     default-group                   
+ABCR00AP06                        7872.5db9.3e00    100.98.35.254     default-group                   
+ABCR00AP07                        7872.5db9.3f80    100.98.35.254     default-group                   
+ABCR00AP08                        7872.5db9.67c0    100.98.35.254     default-group                   
+
+RBCR01CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+RBCR01CR01",2025-11-03 16:46:02,
+172.18.57.4,WS-C3850-24U,FOC2211X0JL,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 49 weeks, 3 days, 14 hours, 8 minutes
+Switchovers system experienced = 0
+              Standby failures = 0
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 49 weeks, 3 days, 14 hours, 8 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 2
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 49 weeks, 3 days, 14 hours, 3 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf;
+        Configuration register = 0x102
+
+
+RBCC07CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          5     5       0
+802.11b/g/n        0     0       0
+All APs            5     5       0
+
+Client Summary
+
+Current Clients : 0
+Excluded Clients: 0
+Disabled Clients: 0
+
+RBCC07CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 5
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ABCC00AP04                        7488.bb22.a220    100.96.67.254     default-group                   
+ABCC00AP05                        7488.bb44.7480    100.96.67.254     default-group                   
+ABCC00AP01                        7872.5d70.1220    100.96.67.254     default-group                   
+ABCC00AP02                        a093.518d.47e0    100.96.67.254     default-group                   
+ABCC00AP03                        a093.518d.5220    100.96.67.254     default-group                   
+
+RBCC07CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 0
+Total Local sub-domain Client : 0
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+
+RBCC07CR01",2025-11-03 16:46:05,
+172.18.37.131,WS-C3850-12X48U,FCW2051D01H,"show redundancy
+Redundant System Information :
+------------------------------
+       Available system uptime = 2 years, 4 days, 22 hours, 25 minutes
+Switchovers system experienced = 0
+              Standby failures = 1
+        Last switchover reason = none
+
+                 Hardware Mode = Duplex
+    Configured Redundancy Mode = sso
+     Operating Redundancy Mode = sso
+              Maintenance Mode = Disabled
+                Communications = Up
+
+Current Processor Information :
+-------------------------------
+               Active Location = slot 1
+        Current Software state = ACTIVE
+       Uptime in current state = 2 years, 4 days, 22 hours, 24 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+Peer Processor Information :
+----------------------------
+              Standby Location = slot 3
+        Current Software state = STANDBY HOT 
+       Uptime in current state = 1 year, 50 weeks, 1 day, 23 hours, 31 minutes
+                 Image Version = Cisco IOS Software [Denali], Catalyst L3 Switch Software (CAT3K_CAA-UNIVERSALK9-M), Version 16.03.11, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2020 by Cisco Systems, Inc.
+Compiled Mon 17-Aug-20 04:07 by mcpre
+                          BOOT = flash:packages.conf
+        Configuration register = 0x102
+
+
+RBJG24CR01","show wireless summary
+
+Access Point Summary
+
+               Total    Up    Down
+-----------------------------------
+802.11a/n          8     8       0
+802.11b/g/n        0     0       0
+All APs            8     8       0
+
+Client Summary
+
+Current Clients : 2
+Excluded Clients: 0
+Disabled Clients: 0
+
+RBJG24CR01","sh wireless  mobility controller ap
+Number of AP entries in the sub-domain     : 8
+
+AP name                           AP radio MAC      Controller IP     Location                        
+------------------------------------------------------------------------------------------------------
+ABJG24AP04                        0896.adb5.1300    10.135.225.254    default-group                   
+ABJG24AP01                        0896.ade4.8640    10.135.225.254    default-group                   
+ABJG24AP02                        0896.ade4.8b40    10.135.225.254    default-group                   
+ABJG24AP07                        286f.7fcc.23c0    10.135.225.254    default-group                   
+ABJG24AP05                        286f.7fd1.9c40    10.135.225.254    default-group                   
+ABJG24AP06                        286f.7fd1.a460    10.135.225.254    default-group                   
+ABJG24AP03                        286f.7fdf.18e0    10.135.225.254    default-group                   
+ABJG24AP08                        286f.7fdf.1940    10.135.225.254    default-group                   
+
+RBJG24CR01","sh wireless  mobility controller client summary
+Sub-Domain Client Summary
+
+Maximum Client Limit : 2000
+Total Client Count : 2
+Total Local sub-domain Client : 2
+Total Foreign sub-domain Client : 0
+Total Anchor sub-domain Client : 0
+
+Mobility is the Sub-Domain state of the client.
+* indicates IP of the associated Sub-domain
+Associated Time in hours:minutes:seconds
+
+MAC Address     User Name   AP Name           IP Address      AssociatedTime  Mobility  SPG      Controller      Anchor IP       MTE
+------------------------------------------------------------------------------------------------------------------------------------
+94b6.0903.5d2c  host/MYPC-03-DMABJG24AP03        10.135.233.151  12:05:50        Local     N/A      10.135.225.254  0.0.0.0         N  
+dc90.0918.182f  host/MYPC-03-YLABJG24AP03        10.135.233.106  132:21:41       Local     N/A      10.135.225.254  0.0.0.0         N  
+
+RBJG24CR01",2025-11-03 16:46:07,
