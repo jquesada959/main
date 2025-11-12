@@ -1,0 +1,170 @@
+--- SLON11AC01 (172.18.21.131) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SLON11AC01(config)#ip dhcp pool GUEST
+SLON11AC01(dhcp-config)# vrf GUEST
+SLON11AC01(dhcp-config)# lease 0 4
+SLON11AC01(dhcp-config)#end
+SLON11AC01#terminal length 0
+SLON11AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.62.0 255.255.255.0
+ default-router 10.154.62.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SLON11AC01#
+
+--- SLON11AC02 (172.18.21.139) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SLON11AC02(config)#ip dhcp pool GUEST
+SLON11AC02(dhcp-config)# vrf GUEST
+SLON11AC02(dhcp-config)# lease 0 4
+SLON11AC02(dhcp-config)#end
+SLON11AC02#terminal length 0
+SLON11AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.63.0 255.255.255.0
+ default-router 10.154.63.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SLON11AC02#
+
+--- SLON12AC01 (172.18.21.147) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SLON12AC01(config)#ip dhcp pool GUEST
+SLON12AC01(dhcp-config)# vrf GUEST
+SLON12AC01(dhcp-config)# lease 0 4
+SLON12AC01(dhcp-config)#end
+SLON12AC01#terminal length 0
+SLON12AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.64.0 255.255.255.0
+ default-router 10.154.64.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SLON12AC01#
+
+--- SLON12AC02 (172.18.21.155) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SLON12AC02(config)#ip dhcp pool GUEST
+SLON12AC02(dhcp-config)# vrf GUEST
+SLON12AC02(dhcp-config)# lease 0 4
+SLON12AC02(dhcp-config)#end
+SLON12AC02#terminal length 0
+SLON12AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.65.0 255.255.255.0
+ default-router 10.154.65.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SLON12AC02#
+
+--- SLON14AC01 (172.18.21.163) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SLON14AC01(config)#ip dhcp pool GUEST
+SLON14AC01(dhcp-config)# vrf GUEST
+SLON14AC01(dhcp-config)# lease 0 4
+SLON14AC01(dhcp-config)#end
+SLON14AC01#terminal length 0
+SLON14AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.66.0 255.255.255.0
+ default-router 10.154.66.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SLON14AC01#
+
+--- SLON14AC02 (172.18.21.171) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SLON14AC02(config)#ip dhcp pool GUEST
+SLON14AC02(dhcp-config)# vrf GUEST
+SLON14AC02(dhcp-config)# lease 0 4
+SLON14AC02(dhcp-config)#end
+SLON14AC02#terminal length 0
+SLON14AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.67.0 255.255.255.0
+ default-router 10.154.67.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SLON14AC02#
+
+--- SLON15AC01 (172.18.21.179) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SLON15AC01(config)#ip dhcp pool GUEST
+SLON15AC01(dhcp-config)# vrf GUEST
+SLON15AC01(dhcp-config)# lease 0 4
+SLON15AC01(dhcp-config)#end
+SLON15AC01#terminal length 0
+SLON15AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.68.0 255.255.255.0
+ default-router 10.154.68.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SLON15AC01#
+
+--- SLON15AC02 (172.18.21.187) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SLON15AC02(config)#ip dhcp pool GUEST
+SLON15AC02(dhcp-config)# vrf GUEST
+SLON15AC02(dhcp-config)# lease 0 4
+SLON15AC02(dhcp-config)#end
+SLON15AC02#terminal length 0
+SLON15AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.69.0 255.255.255.0
+ default-router 10.154.69.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SLON15AC02#
+
+--- SLON16AC01 (172.18.21.195) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SLON16AC01(config)#ip dhcp pool GUEST
+SLON16AC01(dhcp-config)# vrf GUEST
+SLON16AC01(dhcp-config)# lease 0 4
+SLON16AC01(dhcp-config)#end
+SLON16AC01#terminal length 0
+SLON16AC01#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.70.0 255.255.255.0
+ default-router 10.154.70.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SLON16AC01#
+
+--- SLON16AC02 (172.18.21.203) ---
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+SLON16AC02(config)#ip dhcp pool GUEST
+SLON16AC02(dhcp-config)# vrf GUEST
+SLON16AC02(dhcp-config)# lease 0 4
+SLON16AC02(dhcp-config)#end
+SLON16AC02#terminal length 0
+SLON16AC02#show running-config | section ip dhcp pool GUEST
+ip dhcp pool GUEST
+ vrf GUEST
+ network 10.154.71.0 255.255.255.0
+ default-router 10.154.71.1 
+ dns-server 172.64.36.1 172.64.36.2 
+ lease 0 4
+SLON16AC02#
+
